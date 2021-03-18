@@ -1,0 +1,26 @@
+// Global SCSS styling
+// @see https://docs.nativescript.org/ui/styling
+
+
+
+Label {
+    color: #484848;
+}
+
+Button {
+    background-color: #069F70;
+    color: #fff;
+    border-radius: 5;
+    height: 50;
+    font-weight: bold;
+}
+
+Button:disabled,
+Button[disabled] {
+    background-color: #eee;
+    color: #ccc;
+}
+
+ActionBar {
+    color: #fff;
+}
